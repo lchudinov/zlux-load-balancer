@@ -1,0 +1,16 @@
+{
+  "servers": [
+    "https://localhost:8544",
+    "https://localhost:8545",
+    "https://localhost:8546"
+  ],
+  "https": {
+    "port": 8080,
+    "keys": [
+      "./defaults/zlux.keystore.key"
+    ],
+    "certs": [
+      "./defaults/zlux.keystore.cer"
+    ]
+  }
+}
